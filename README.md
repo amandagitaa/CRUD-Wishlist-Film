@@ -11,7 +11,7 @@ Project ini dibuat sebagai latihan untuk memahami dasar Laravel seperti routing,
 - Memahami konsep dasar CRUD pada Laravel
 - Mempelajari struktur MVC (Model, View, Controller)
 - Melatih koneksi Laravel dengan database MySQL
-- Mengimplementasikan routing dan blade template
+- Mengimplementasikan routing
 - Membuat aplikasi web sederhana yang fungsional
 
 ---
