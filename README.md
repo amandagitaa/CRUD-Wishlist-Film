@@ -74,5 +74,5 @@ Tabel: `films`
 
 ## Author
 
-Nama    : Amanda Gita Syafitri
-Kelas   : A3
+- Nama    : Amanda Gita Syafitri
+- Kelas   : A3
