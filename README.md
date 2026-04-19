@@ -33,7 +33,34 @@ Project ini dibuat sebagai latihan untuk memahami dasar Laravel seperti routing,
 
 ---
 
-## Cara Menjalankan Project
+## Instalasi & Menjalankan Project
+
+1. Jalankan perintah berikut di terminal:
+```bash
+git clone https://github.com/amandagitaa/CRUD-Wishlist-Film.git
+cd CRUD-Wishlist-Film
+composer install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
+
+2. Atur koneksi database di file `.env`:
+```
+DB_DATABASE=nama_database
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+3. Buat database di phpMyAdmin sesuai nama di `.env`
+
+4. Buka di browser:
+http://127.0.0.1:8000/films
+
+---
+
+## Cara Menggunakan Project
 1. Buka aplikasi di browser: http://127.0.0.1:8000/films
 2. Klik tombol **Tambah Film** untuk menambahkan data baru
 3. Isi form:
